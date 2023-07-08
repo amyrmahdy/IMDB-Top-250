@@ -1,4 +1,4 @@
-# Top 250 IMDb Movies Data
+# IMDb Top 250 Movies Scraper
 
 This repository contains a Python script to scrape data from the top 250 movies on IMDb and save it as a CSV file.
 
