@@ -70,7 +70,7 @@ American Beauty,8.3,1999,122,68
 The Dark Knight Rises,8.4,2012,164,69
 Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,8.4,1964,95,70
 Inglourious Basterds,8.3,2009,153,71
-Oldboy,8.4,2003,2,72
+Oldboy,8.4,2003,120,72
 Coco,8.4,2017,105,73
 Amadeus,8.4,1984,160,74
 Toy Story,8.3,1995,81,75
@@ -130,7 +130,7 @@ Batman Begins,8.2,2005,140,128
 The Kid,8.3,1921,68,129
 Some Like It Hot,8.2,1959,121,130
 The Father,8.2,2020,97,131
-The Wolf of Wall Street,8.2,2013,3,132
+The Wolf of Wall Street,8.2,2013,180,132
 Green Book,8.2,2018,130,133
 All About Eve,8.2,1950,138,134
 Judgment at Nuremberg,8.3,1961,179,135
@@ -197,7 +197,7 @@ The Wages of Fear,8.2,1953,131,195
 Sherlock Jr.,8.2,1924,45,196
 Wild Tales,8.1,2014,122,197
 Mr. Smith Goes to Washington,8.1,1939,129,198
-Mad Max: Fury Road,8.1,2015,2,199
+Mad Max: Fury Road,8.1,2015,120,199
 Dead Poets Society,8.1,1989,128,200
 Mary and Max,8.1,2009,92,201
 "Monsters, Inc.",8.1,2001,92,202
@@ -211,8 +211,8 @@ Ford v Ferrari,8.1,2019,152,209
 The Passion of Joan of Arc,8.2,1928,114,210
 Ratatouille,8.1,2007,111,211
 Hotel Rwanda,8.1,2004,121,212
-Rocky,8.1,1976,2,213
-Platoon,8.1,1986,2,214
+Rocky,8.1,1976,120,213
+Platoon,8.1,1986,120,214
 Logan,8.1,2017,137,215
 Spotlight,8.1,2015,129,216
 The Terminator,8.1,1984,107,217

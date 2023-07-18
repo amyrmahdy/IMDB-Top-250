@@ -50,7 +50,11 @@ for movie in movies:
             minutes = 0
         duration = int(hour) * 60 + int(minutes)
     else:
-        duration = int(duration_splitted[0][:-1])
+        lastChar = duration_splitted[0][-1]
+        if lastChar == 'm':
+            duration = int(duration_splitted[0][:-1])
+        else:
+            duration = int(duration_splitted[0][:-1]) * 60    
     row.append(duration)
 
     # Append row to rows
