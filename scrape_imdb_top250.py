@@ -42,12 +42,15 @@ for movie in movies:
     # Duration
     duration_raw = year_duration_raw[1].text
     duration_splitted = duration_raw.split()
-    hour = duration_splitted[0][:-1]
     if len(duration_splitted) > 1:
-        minutes = duration_splitted[1][:-1]
+        hour = duration_splitted[0][:-1]
+        if len(duration_splitted) > 1:
+            minutes = duration_splitted[1][:-1]
+        else:
+            minutes = 0
+        duration = int(hour) * 60 + int(minutes)
     else:
-        minutes = 0
-    duration = int(hour) * 60 + int(minutes)
+        duration = int(duration_splitted[0][:-1])
     row.append(duration)
 
     # Append row to rows
@@ -60,7 +63,7 @@ rank = np.arange(1, 251, dtype=np.int32)
 df = df.with_columns(pl.lit(rank).alias("rank"))
 
 # Write the DataFrame to a CSV file
-df.write_csv("top250imdb_2023-07-07.csv", separator=",")
+df.write_csv("top250imdb_2023-07-18.csv", separator=",")
 
 # WITH‌ PANDAS
 # import pandas as pd
